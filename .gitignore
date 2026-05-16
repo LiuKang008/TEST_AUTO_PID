@@ -1,0 +1,62 @@
+# =================================
+#  .gitignore
+#  DAVE4 + Eclipse/CDT + XMC4200/XMC4700 项目
+# =================================
+
+# --- 构建输出目录 ---
+# 忽略所有子目录中的 Debug 文件夹及其全部内容
+**/Debug/
+
+# --- IDE 元数据 ---
+# Eclipse/DAVE 工作区元数据（根目录及所有子目录）
+**/.metadata/
+# Eclipse CDT 项目设置
+.settings/
+
+# --- DAVE 工具缓存 ---
+**/Dave/Cache/
+
+# --- 编译输出文件 ---
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.o.lst
+*.su
+*.d
+*.a
+*.lib
+
+# --- 编译中间文件 ---
+*.pdom
+*.snap
+
+# --- 调试会话文件（个人偏好，不共享） ---
+*.jdebug
+*.jdebug.user
+
+# --- 备份文件 ---
+*~
+*.bak
+*.backup
+*.tmp
+*.swp
+
+# --- 日志和构建脚本 ---
+*.log
+*.build.log
+make*.bat
+
+# --- 系统文件 ---
+Thumbs.db
+.DS_Store
+
+# --- 历史记录 ---
+.history/
+
+# 临时锁文件
+.lock
+
+
